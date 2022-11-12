@@ -1,13 +1,465 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+#re{
+ color: blue;
+}
+/* 
+@media print {
+  @page {
+    text-align: center; size: landscape; }
+}
+@page {
+  text-align: center;
+  size: 80mm 50mm;
+}
+
+@media all {
+  .pagebreak {
+    text-align: center;
+    display: none;
+  }
+}
+
+@media print {
+  .pagebreak {
+    text-align: center;
+    page-break-before: always;
+  }
+}
+
+@media all {
+  .page-break {
+    text-align: center;
+    display: none;
+  }
+}
+
+
+
+@media print {
+  .page-break {
+    text-align: center;
+    margin-top: 1rem;
+    display: block;
+    page-break-before: auto;
+  }
+}
+
+@page {
+  text-align: center;
+  size: auto;
+  margin: 20mm;
+} */
+@media print {
+ 
+  html, body, #mybarcode {
+    color: red;
+     padding-left: 10px !important;
+   }
+} 
+.MuiFab-secondary {
+ 
+  background-color: #5161ce !important;
+  }
+
+
+  .dash{
+    height: 64px;
+    width: 150.671875px;
+    
+  }
+  .dashs{
+      height: 62px;
+      width: 247.67px !important;
+      
+    }
+.tt {
+    background-color: #ffffff;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(0, 0, 0);
+  }
+  .MuiButton-containedSecondary {
+    color: #fff;
+    background-color: #5161ce !important;
+    border-radius: 40px !important;
+    }
+    /* .MuiGrid-container {
+ 
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      }
+      .Typography{
+         margin-left: 300px !important;
+         margin-top: 236px !important;
+
+      } */
+ 
+.form-outline{
+
+  display: inline-flex;
+}
+
+#Select{
+text-align: left;
+color: black !important;
+margin-bottom: -28px;}
+#popCard{
+width: 400px;
+}
+
+.popup-content {
+margin: auto;
+background: none !important;
+width: 50%;
+padding: 5px;
+border: 0 !important;
+}
+.fa-circle-plus{
+  top: 2;
+position: fixed;
+right: 0;
+color: #5161ce !important;
+/* height: 30px; */
+/* width: 30px; */
+font-size: 47px;
+padding: 30px;
+cursor: pointer;
+}
+.fa-user-gear{
+  cursor: pointer;
+}
+.tdBefore{
+  display: none!important;
+}
+/* .main > Table > Tbody :hover {
+  background-color: #5162ce8b !important;
+  } */
+  #main Table > Tbody > Tr {
+  border-bottom: groove;
+  border-color: #ffffff1c;
+  /* background: #040066ff; */
+color: white;
+ }
+ #tbodyCq :hover{
+  border-bottom: groove;
+  border-color: #5162ce8b;
+  background: rgb(6, 0, 174);
+color: white;
+ }
+
+/* pagination */
+.pagination {
+margin: 15px 20px;
+display: flex;
+list-style: none;
+outline: none;
+position: fixed;
+bottom: 0;
+
+}
+.pagination > .active > a{
+background-color: #0022ff !important ;
+border-color: #2e2e2e !important ;
+color: #fff;
+}
+.pagination > li > a{
+border: 1px solid #c05ffb !important ;
+padding: 5px 10px;
+outline: none;
+cursor: pointer;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+background-color: #5162ce8b !important ;
+border-color: #5161ce !important;
+outline: none ;
+}
+.pagination > li > a, .pagination > li > span{
+color: #5161ce !important
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+border-radius: unset
+}
+.form-group{
+text-align: left;
+}
+
+#btnRegister{
+background: rgba(255, 255, 255, 0) !important;
+border: antiquewhite !important;
+}
+
+#FabRegsiter{
+
+background-color: #0f8c00 !important;
+}
+#FabRegsiter:hover{
+
+background-color: #2347ba !important;
+}
+.MuiFab-root:hover{
+
+background-color: #0f8c00 !important;
+}
+
+.table { 
+ background-image: linear-gradient(104deg, #8774ff 14.29%, #378dff)!important;
+}
+
+
+.css-ftn4rr input{
+position:fixed !important;
+bottom: 0 !important;
+width: 101px !important;
+height: 39px !important;
+margin-bottom: 20px !important;
+background-color: #c05ffb !important;
+
+}
+.css-ftn4rr input:hover, .css-ftn4rr input:hover::after{
+background-color: #5161ce ;
+}
+.css-ftn4rr input:checked {
+background-color: #c05ffb !important;
+position: fixed !important;
+bottom: 0 !important;
+margin-right: -10px !important;
+
+}
+.css-ftn4rr input::after{
+  width: 0px !important;
+  background-color: #c05ffb !important;
+}
+ 
+.css-ftn4rr input::before
+{
+  padding-left: 43px !important;
+  width: 26px !important;
+  height: 26px !important;
+  top: 7px !important;
+}
+.react-calendar{
+  width: auto !important;
+  /* background-image: linear-gradient(360deg, #bf5ffb11, rgba(255, 255, 255, 0.392)50.84%); */
+      border: 0px ;
+}
+.react-calendar:hover{
+  background: rgba(250, 235, 215, 0.269);
+  border-radius: 30px;
+}
+/* #bodyDash{
+  background-image: linear-gradient(179deg, #fff 52.1%, #e2b4ff80) !important;
+  height: stretch !important;
+  
+} */
+
+.react-calendar__tile--active {
+  background: #bf5ffba4 !important;
+ }
+ .react-calendar__tile--active:hover {
+  background: #a008fe !important;
+ }
+ .css-ftn4rr input:hover{
+  background: #a008fe !important;
+
+ }
+ .react-clock__face:hover {
+ background-color: rgba(250, 235, 215, 0.522);
+}
+
+ .react-clock__face {
+
+  /* background-image: linear-gradient(360deg, #bf5ffb11, rgba(255, 255, 255, 0.392)50.84%); */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 0px  ;
+  border-radius: 50%;
+  }
+  .react-clock{
+    width: 270px !important;
+height: 270px !important;
+cursor: pointer;
+  }
+
+
+
+  .react-calendar__navigation button:hover {
+    background: #bf5ffba4 !important;
+
+    }
+
+
+    #graphPRT {
+      right: 0 !important;
+      position: fixed	!important;
+    }
+
+    .react-clock__mark__body{
+      background-color: #833eadff !important;
+    }
+
+
+
+.label {
+ padding: .2em .6em .3em;
+font-size: 79%;
+font-weight: 800;
+line-height: 1;
+color: #fff;
+text-align: center;
+white-space: nowrap;
+vertical-align: baseline;
+border-radius: .25em;
+}
+
+a.label:focus, a.label:hover {
+color: #fff;
+text-decoration: none;
+cursor:pointer;
+background-color:  #3dc000 !important;
+
+
+}
+
+.label:empty {
+}
+
+.btn .label {
+position: relative;
+top:-1px
+}
+
+.label-default {
+background-color:#777
+}
+
+.label-default[href]:focus, .label-default[href]:hover {
+background-color:#5e5e5e
+}
+
+.label-primary {
+background-color:#337ab7
+}
+
+.label-primary[href]:focus, .label-primary[href]:hover {
+background-color:#286090
+}
+
+.label-success {
+background-color:#5cb85c
+}
+
+.label-success[href]:focus, .label-success[href]:hover {
+background-color:#449d44
+}
+
+.label-info {
+background-color:#5bc0de
+}
+
+.label-info[href]:focus, .label-info[href]:hover {
+background-color:#31b0d5
+}
+
+.label-warning {
+background-color:#f0ad4e
+
+}
+.label-warning:hover {
+cursor: pointer;
+background-color:  #3dc000 !important;
+
+}
+
+.label-warning[href]:focus, .label-warning[href]:hover {
+background-color:#ec971f
+}
+
+.label-danger {
+background-color:#d9534f
+}
+
+.label-danger[href]:focus, .label-danger[href]:hover {
+background-color:#c9302c
+}
+
+.badge {
+display: inline-block;
+min-width: 10px;
+padding: 3px 7px;
+font-size: 12px;
+font-weight: 700;
+line-height: 1;
+color: #fff;
+text-align: center;
+white-space: nowrap;
+vertical-align: baseline;
+background-color: #777;
+border-radius:10px
+}
+
+
+
+.tdBefore > a{
+
+color: #e48fff;
+
+}
+
+.react-calendar__tile--now:enabled:hover {
+background: #17e200;
+}
+
+.responsiveTable{
+  background-image: linear-gradient(192deg, #5161ce 23.95%, #c05ffb)!important;
+
+}
+.h5, h5 {
+  font-size: 1.25rem;
+  font-family: Courier New;
+  }

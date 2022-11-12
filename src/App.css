@@ -2,7 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -14,16 +15,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
-
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +35,1403 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+#re{
+ color: blue;
 }
+/* 
+@media print {
+  @page {
+    text-align: center; size: landscape; }
+}
+@page {
+  text-align: center;
+  size: 80mm 50mm;
+}
+
+@media all {
+  .pagebreak {
+    text-align: center;
+    display: none;
+  }
+}
+
+@media print {
+  .pagebreak {
+    text-align: center;
+    page-break-before: always;
+  }
+}
+
+@media all {
+  .page-break {
+    text-align: center;
+    display: none;
+  }
+}
+
+
+
+@media print {
+  .page-break {
+    text-align: center;
+    margin-top: 1rem;
+    display: block;
+    page-break-before: auto;
+  }
+}
+
+@page {
+  text-align: center;
+  size: auto;
+  margin: 20mm;
+} */
+@media print {
+ 
+  html, body, #mybarcode {
+    color: red;
+     padding-left: 10px !important;
+   }
+} 
+.MuiFab-secondary {
+ 
+  background-color: #5161ce !important;
+  }
+
+
+  .dash{
+    height: 64px;
+    width: 150.671875px;
+    
+  }
+  .dashs{
+      height: 62px;
+      width: 247.67px !important;
+      
+    }
+.tt {
+    background-color: #ffffff;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(0, 0, 0);
+  }
+  .MuiButton-containedSecondary {
+    color: #fff;
+    background-color: #5161ce !important;
+    border-radius: 40px !important;
+    }
+    /* .MuiGrid-container {
+ 
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      }
+      .Typography{
+         margin-left: 300px !important;
+         margin-top: 236px !important;
+
+      } */
+ 
+.form-outline{
+
+  display: inline-flex;
+}
+
+#Select{
+text-align: left;
+color: black !important;
+margin-bottom: -28px;}
+#popCard{
+width: 400px;
+}
+
+.popup-content {
+margin: auto;
+background: none !important;
+width: 50%;
+padding: 5px;
+border: 0 !important;
+}
+.fa-circle-plus{
+  top: 2;
+position: fixed;
+right: 0;
+color: #5161ce !important;
+/* height: 30px; */
+/* width: 30px; */
+font-size: 47px;
+padding: 30px;
+cursor: pointer;
+}
+.fa-user-gear{
+  cursor: pointer;
+}
+.tdBefore{
+  display: none!important;
+}
+/* .main > Table > Tbody :hover {
+  background-color: #5162ce8b !important;
+  } */
+  #main Table > Tbody > Tr {
+  border-bottom: groove;
+  border-color: #ffffff1c;
+  /* background: #040066ff; */
+color: white;
+ }
+ #tbodyCq :hover{
+  border-bottom: groove;
+  border-color: #5162ce8b;
+  background: rgb(6, 0, 174);
+color: white;
+ }
+
+/* pagination */
+.pagination {
+margin: 15px 20px;
+display: flex;
+list-style: none;
+outline: none;
+position: fixed;
+bottom: 0;
+
+}
+.pagination > .active > a{
+background-color: #0022ff !important ;
+border-color: #2e2e2e !important ;
+color: #fff;
+}
+.pagination > li > a{
+border: 1px solid #c05ffb !important ;
+padding: 5px 10px;
+outline: none;
+cursor: pointer;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+background-color: #5162ce8b !important ;
+border-color: #5161ce !important;
+outline: none ;
+}
+.pagination > li > a, .pagination > li > span{
+color: #5161ce !important
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+border-radius: unset
+}
+.form-group{
+text-align: left;
+}
+
+#btnRegister{
+background: rgba(255, 255, 255, 0) !important;
+border: antiquewhite !important;
+}
+
+#FabRegsiter{
+
+background-color: #0f8c00 !important;
+}
+#FabRegsiter:hover{
+
+background-color: #2347ba !important;
+}
+.MuiFab-root:hover{
+
+background-color: #0f8c00 !important;
+}
+
+.table { 
+  background-image: linear-gradient(104deg, #8774ff 14.29%, #378dff)!important;
+}
+
+
+.css-ftn4rr input{
+position:fixed !important;
+bottom: 0 !important;
+width: 101px !important;
+height: 39px !important;
+margin-bottom: 20px !important;
+background-color: #c05ffb !important;
+
+}
+.css-ftn4rr input:hover, .css-ftn4rr input:hover::after{
+background-color: #5161ce ;
+}
+.css-ftn4rr input:checked {
+background-color: #c05ffb !important;
+position: fixed !important;
+bottom: 0 !important;
+margin-right: -10px !important;
+
+}
+.css-ftn4rr input::after{
+  width: 0px !important;
+  background-color: #c05ffb !important;
+}
+ 
+.css-ftn4rr input::before
+{
+  padding-left: 43px !important;
+  width: 26px !important;
+  height: 26px !important;
+  top: 7px !important;
+}
+.react-calendar{
+  width: auto !important;
+  /* background-image: linear-gradient(360deg, #bf5ffb11, rgba(255, 255, 255, 0.392)50.84%); */
+      border: 0px ;
+}
+.react-calendar:hover{
+  background: rgba(250, 235, 215, 0.269);
+  border-radius: 30px;
+}
+/* #bodyDash{
+  background-image: linear-gradient(179deg, #fff 52.1%, #e2b4ff80) !important;
+  height: stretch !important;
+  
+} */
+
+.react-calendar__tile--active {
+  background: #bf5ffba4 !important;
+ }
+ .react-calendar__tile--active:hover {
+  background: #a008fe !important;
+ }
+ .css-ftn4rr input:hover{
+  background: #a008fe !important;
+
+ }
+ .react-clock__face:hover {
+ background-color: rgba(250, 235, 215, 0.522);
+}
+
+ .react-clock__face {
+
+  /* background-image: linear-gradient(360deg, #bf5ffb11, rgba(255, 255, 255, 0.392)50.84%); */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 0px  ;
+  border-radius: 50%;
+  }
+  .react-clock{
+    width: 270px !important;
+height: 270px !important;
+cursor: pointer;
+  }
+
+
+
+  .react-calendar__navigation button:hover {
+    background: #bf5ffba4 !important;
+
+    }
+
+
+    #graphPRT {
+      right: 0 !important;
+      position: fixed	!important;
+    }
+
+    .react-clock__mark__body{
+      background-color: #833eadff !important;
+    }
+
+
+
+.label {
+ padding: .2em .6em .3em;
+font-size: 79%;
+font-weight: 800;
+line-height: 1;
+color: #fff;
+text-align: center;
+white-space: nowrap;
+vertical-align: baseline;
+border-radius: .25em;
+}
+
+a.label:focus, a.label:hover {
+color: #fff;
+text-decoration: none;
+cursor:pointer;
+background-color:  #3dc000 !important;
+
+
+}
+
+.label:empty {
+}
+
+.btn .label {
+position: relative;
+top:-1px
+}
+
+.label-default {
+background-color:#777
+}
+
+.label-default[href]:focus, .label-default[href]:hover {
+background-color:#5e5e5e
+}
+
+.label-primary {
+background-color:#337ab7
+}
+
+.label-primary[href]:focus, .label-primary[href]:hover {
+background-color:#286090
+}
+
+.label-success {
+background-color:#5cb85c
+}
+
+.label-success[href]:focus, .label-success[href]:hover {
+background-color:#449d44
+}
+
+.label-info {
+background-color:#5bc0de
+}
+
+.label-info[href]:focus, .label-info[href]:hover {
+background-color:#31b0d5
+}
+
+.label-warning {
+background-color:#f0ad4e
+
+}
+.label-warning:hover {
+cursor: pointer;
+background-color:  #3dc000 !important;
+
+}
+
+.label-warning[href]:focus, .label-warning[href]:hover {
+background-color:#ec971f
+}
+
+.label-danger {
+background-color:#d9534f
+}
+
+.label-danger[href]:focus, .label-danger[href]:hover {
+background-color:#c9302c
+}
+
+.badge {
+display: inline-block;
+min-width: 10px;
+padding: 3px 7px;
+font-size: 12px;
+font-weight: 700;
+line-height: 1;
+color: #fff;
+text-align: center;
+white-space: nowrap;
+vertical-align: baseline;
+background-color: #777;
+border-radius:10px
+}
+
+
+
+.tdBefore > a{
+
+color: #e48fff;
+
+}
+
+.react-calendar__tile--now:enabled:hover {
+background: #17e200;
+}
+
+.responsiveTable{
+  background-image: linear-gradient(192deg, #5161ce 23.95%, #c05ffb)!important;
+
+}
+.h5, h5 {
+  font-size: 1.25rem;
+  font-family: Courier New;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  :root {
+    --pm-who-blue:#5ba7c8;
+  
+    --aqi-blue-300: #6cb4d2;
+    --aqi-blue-500: #4ba2c4;
+    --aqi-blue-800: #375c70;
+  
+    --aqi-green-300: #a8e05f;
+    --aqi-green-400: #9cd84e;
+    --aqi-green-500: #87c13c;
+    --aqi-green-800: #607631;
+  
+    --aqi-yellow-300: #fdd64b;
+    --aqi-yellow-500: #efbe1d;
+    --aqi-yellow-800: #8c6c1d;
+  
+    --aqi-orange-300: #ff9b57;
+    --aqi-orange-500: #f27e2f;
+    --aqi-orange-800: #974a20;
+  
+    --aqi-red-300: #fe6a69;
+    --aqi-red-500: #e84b50;
+    --aqi-red-800: #942431;
+  
+    --aqi-purple-300: #a97abc;
+    --aqi-purple-500: #8a5d9d;
+    --aqi-purple-800: #543b63;
+  
+    --aqi-maroon-300: #a87383;
+    --aqi-maroon-500: #915c6c;
+    --aqi-maroon-800: #573344;
+  
+  }
+  .wrapperAirvisualWidget-636e7ab290645e04c07136ed~*,
+  .wrapperAirvisualWidget-636e7ab290645e04c07136ed *,
+  #outdoorAirvisualWidgetPopUp-636e7ab290645e04c07136ed * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  
+  .wrapperAirvisualWidget-636e7ab290645e04c07136ed p,
+  #outdoorAirvisualWidgetPopUp-636e7ab290645e04c07136ed p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapperAirvisualWidget-636e7ab290645e04c07136ed,
+  .wrapperAirvisualWidget-636e7ab290645e04c07136ed:hover,
+  .wrapperAirvisualWidget-636e7ab290645e04c07136ed:focus {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    line-height: 12px;
+    font-size: 13px;
+    color: #414141;
+    background-color: white;
+    width: auto;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.1), 0 -2px 4px 0 rgba(0, 0, 0, 0.08);
+    margin-bottom: 10px;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+  }
+  .dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  .blue{
+    background-color: var(--pm-who-blue);
+  }
+  .green{
+    background-color: var(--aqi-green-300);
+  }
+  .yellow{
+    background-color: var(--aqi-yellow-300);
+  }
+  .orange{
+    background-color: var(--aqi-orange-300);
+  }
+  .red{
+    background-color: var(--aqi-red-300);
+  }
+  .purple{
+    background-color: var(--aqi-purple-300);
+  }
+  .maroon{
+    background-color: var(--aqi-maroon-300);
+  }
+  
+  /* Option Icon and Value */
+  .optionValueOnly .ic-container,
+  .optionValueOnly .itemWeather img,
+  .optionValueOnly .AirvisualWidgetItemText .pmValue .dot
+  {
+    display: none;
+  }
+  .optionValueOnly .AirvisualWidgetItemText{
+    border-radius: 5px !important;
+  }
+  
+  .optionIconOnly .ic-container{
+    border-radius: 5px !important;
+  }
+  .optionIconOnly .AirvisualWidgetItemText,
+  .optionIconOnly .itemWeather .weather-value
+  {
+    display: none;
+  }
+  
+  .optionLeft{
+    flex-direction: row !important;
+  }
+  .optionLeft .legendAirvisualWidget-636e7ab290645e04c07136ed{
+    border-radius: 5px 0 0 5px;
+    justify-content:center;
+  }
+  .optionLeft .bodyAirvisualWidget{
+    border-radius: 0 5px 5px 0 !important;
+  }
+  
+  .optionRight{
+    flex-direction: row-reverse !important;
+  }
+  
+  .optionRight .legendAirvisualWidget-636e7ab290645e04c07136ed{
+    border-radius: 0 5px 5px 0;
+    justify-content:center;
+  }
+  .optionRight .bodyAirvisualWidget{
+    border-radius: 5px 0 0 5px !important;
+  }
+  
+  .optionBottom{
+    flex-direction: column-reverse !important;
+  }
+  
+  .optionBottom .legendAirvisualWidget-636e7ab290645e04c07136ed{
+    border-radius: 0 0 5px 5px;
+  }
+  .optionBottom .bodyAirvisualWidget{
+    border-radius: 5px 5px 0 0 !important;
+  }
+  
+  .optionOneLine .legendAirvisualWidget-636e7ab290645e04c07136ed{
+    flex-direction: row !important;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px !important;
+  }
+  .optionOneLine .inOutDoorName{
+    margin-left: 8px;
+  }
+  .optionOneLine .timestamp{
+    margin-left: auto;
+  }
+  
+  .optionDarkMode .legendAirvisualWidget-636e7ab290645e04c07136ed {
+    background-color: #343434;
+    color: white;
+  }
+  .optionDarkMode .bodyAirvisualWidget{
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 0 0 5px 5px;
+  }
+  .optionDarkMode .AirvisualWidgetItemText .pmValue{
+    color: #ffffff;
+  }
+  .optionDarkMode .bodyAirvisualWidget .itemAirvisualWidget .itemWeather{
+    background-color: #2b353f;
+    color: white;
+  }
+  
+  .optionDisableMode{
+    filter: grayscale(1);
+  }
+  .optionDisableMode .legendAirvisualWidget-636e7ab290645e04c07136ed strong{
+    color: rgba(65, 65, 65, 0.7);
+  }
+  
+  .optionDisableMode .legendAirvisualWidget-636e7ab290645e04c07136ed .timestamp, .optionDisableMode .bodyAirvisualWidget{
+    color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .optionNoIcon .ic-container,
+  .optionNoIcon .itemWeather img,
+  .optionNoIcon .dot
+  {
+    display: none;
+  }
+  .optionNoIcon .AirvisualWidgetItemText{
+    border-radius: 5px;
+  }
+  .TextBgDisable{
+    background-color: #e6e6e6;
+  }
+  .legendAirvisualWidget-636e7ab290645e04c07136ed {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #f6f6f6;
+    width: 100%;
+    font-size: 11px;
+    line-height: 20px;
+    height: 50px;
+    padding: 6px;
+    text-transform: capitalize;
+    border-radius: 5px 5px 0 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  
+  }
+  .legendAirvisualWidget-636e7ab290645e04c07136ed .inOutDoorName{
+    color: #67788d;
+    font-size: 14px;
+  }
+  .legendAirvisualWidget-636e7ab290645e04c07136ed strong {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .optionNoLegend .legendAirvisualWidget-636e7ab290645e04c07136ed{
+  display: none;
+  }
+  
+  .optionDarkMode .legendAirvisualWidget-636e7ab290645e04c07136ed .inOutDoorName strong {
+  color:white;
+  font-size: 14px;
+  font-weight: 500;
+  }
+  
+  .inOutDoorName strong {
+    color: #414141;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .legendAirvisualWidget-636e7ab290645e04c07136ed .timestamp {
+    color: #67788d;
+    font-size: 10px;
+    line-height: 1.2;
+    margin-top: 2px;
+  }
+  
+  .bodyAirvisualWidget {
+    display: inline-flex;
+    height: 50px;
+  }
+  
+  .dividerAirvisualWidget {
+    display: inline-flex;
+    height: 35px;
+    margin: auto;
+    border-left: 1px solid #c7c7c7;
+  }
+  
+  .itemAirvisualWidget {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    line-height: 1;
+    vertical-align: top;
+  }
+  
+  .itemAirvisualWidget .rounded-icon {
+    width: 35px;
+  }
+  .itemAirvisualWidget .ic-container {
+    background-color: #c4c4c4;
+    padding: 3px;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .itemAirvisualWidget .ic-container-red{
+    background-color: #f65e5f;
+  }
+  .itemAirvisualWidget .itemWeather{
+    display: flex;
+    align-items: center;
+    background-color: #f3f7fb;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .itemAirvisualWidget .itemWeather .AirvisualWidgetItemText{
+    font-size: 24px;
+    font-weight: 300;
+  }
+  
+  .AirvisualWidgetItemText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2px 0;
+  width: 80px;
+  border-radius: 0 5px 5px 0;
+  }
+  .AirvisualWidgetItemText .pmValue{
+    display: flex;
+    font-size: 18px;
+    margin-top: 5px;
+    color: #414141;
+    align-items: center;
+    justify-content: center;
+  }
+  .AirvisualWidgetItemText .humidityValue{
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .contentWidget .widget-bg-green {
+    background-color: var(--aqi-green-300);
+  }
+  .contentWidget .widget-bg-green h3,.contentWidget .widget-bg-green .aqiNumberAndIcon h2 {
+  color: var(--aqi-green-800);
+  }
+  .widget-bg-green .ic-container {
+    background-color: var(--aqi-green-500);
+  }
+  
+  .forecastRow .widget-bg-green {
+    background-color: var(--aqi-green-300);
+  }
+  .widget-bg-green .AirvisualWidgetItemText{
+    background-color: var(--aqi-green-300);
+    color: var(--aqi-green-800);
+  }
+  
+  .contentWidget .widget-bg-yellow {
+    background-color: var(--aqi-yellow-300);
+  }
+  .contentWidget .widget-bg-yellow h3,.contentWidget .widget-bg-yellow .aqiNumberAndIcon h2 {
+  color: var(--aqi-yellow-800);
+  }
+  
+  .widget-bg-yellow .ic-container{
+    background-color: var(--aqi-yellow-500);
+  }
+  
+  .forecastRow .widget-bg-yellow {
+    background-color: var(--aqi-yellow-300);
+  }
+  .widget-bg-yellow .AirvisualWidgetItemText{
+    background-color: var(--aqi-yellow-300);
+    color: var(--aqi-yellow-800);
+  }
+  
+  .contentWidget .widget-bg-orange {
+    background-color: var(--aqi-orange-300);
+  }
+  .contentWidget .widget-bg-orange h3,.contentWidget .widget-bg-orange .aqiNumberAndIcon h2 {
+  color: var(--aqi-orange-800);
+  }
+  
+  .widget-bg-orange .ic-container{
+    background-color: var(--aqi-orange-500);
+  }
+  .forecastRow .widget-bg-orange {
+    background-color: var(--aqi-orange-300);
+  }
+  .widget-bg-orange .AirvisualWidgetItemText{
+    background-color: var(--aqi-orange-300);
+    color: var(--aqi-orange-800);
+  }
+  
+  
+  .contentWidget .widget-bg-red {
+    background-color: var(--aqi-red-300);
+  }
+  .contentWidget .widget-bg-red h3,.contentWidget .widget-bg-red .aqiNumberAndIcon h2 {
+  color: var(--aqi-red-800);
+  }
+  
+  .widget-bg-red .ic-container{
+    background-color: var(--aqi-red-500);
+  }
+  .forecastRow .widget-bg-red {
+    background-color: var(--aqi-red-300);
+  }
+  .widget-bg-red .AirvisualWidgetItemText{
+    background-color: var(--aqi-red-300);
+    color: var(--aqi-red-800);
+  }
+  
+  .contentWidget .widget-bg-purple {
+    background-color: var(--aqi-purple-300);
+  }
+  .contentWidget .widget-bg-purple h3,.contentWidget widget-bg-purple .aqiNumberAndIcon h2 {
+  color: var(--aqi-purple-800);
+  }
+  
+  .widget-bg-purple .ic-container{
+    background-color: var(--aqi-purple-500);
+  }
+  
+  .forecastRow .widget-bg-purple {
+    background-color: var(--aqi-purple-300);
+  }
+  
+  .widget-bg-purple .AirvisualWidgetItemText{
+    background-color: var(--aqi-purple-300);
+    color: var(--aqi-purple-800);
+  }
+  
+  .contentWidget .widget-bg-maroon {
+    background-color: var(--aqi-maroon-300);
+  }
+  .contentWidget .widget-bg-maroon h3,.contentWidget .widget-bg-maroon .aqiNumberAndIcon h2 {
+  color: var(--aqi-maroon-800);
+  }
+  
+  .forecastRow .widget-bg-maroon {
+    background-color: var(--aqi-maroon-300);
+  }
+  
+  .widget-bg-maroon .ic-container{
+    background-color: var(--aqi-maroon-500);
+  }
+  
+  .widget-bg-maroon .AirvisualWidgetItemText{
+    background-color: var(--aqi-maroon-300);
+    color: var(--aqi-maroon-800);
+  }
+  
+  .aqiText{
+    font-size: 10px;
+    line-height: 15px;
+  }
+  
+  .AirvisualWidgetItemText strong {
+    font-size: 24px;
+    margin-right: 1px;
+    font-weight: 500;
+  }
+  .indoorStatus {
+    border-radius: 4px;
+    font-weight: 600;
+    background-color: #9cd84e;
+    padding: 5px;
+    margin-top: 3px;
+  }
+  
+  .AirvisualWidgetItemText sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+    top: -.5em;
+  }
+  
+  .AirvisualWidgetPopUp {
+    display: none;
+    position: fixed;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.69);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.69);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.69);
+    border-radius: 10px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #27282b;
+    background-color: #fff;
+    overflow: hidden;
+    width: 328px;
+    z-index: 999;
+  }
+  
+  .AirvisualWidgetPopUp h2,
+  .AirvisualWidgetPopUp h3 {
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 14px;
+    display: inline;
+    margin: 0;
+  }
+  
+  .AirvisualWidgetPopUp .pollution-img {
+    height: 30px;
+  }
+  
+  .AirvisualWidgetPopUp img {
+    vertical-align: middle;
+  }
+  
+  .AirvisualWidgetPopUp .headerWidget {
+    display: flex;
+    background: #f6f6f6;
+    padding: 12px 15px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .AirvisualWidgetPopUp .station {
+    width: 65%;
+    text-align: left;
+  }
+  
+  .AirvisualWidgetPopUp .temperature {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25%;
+  }
+  .AirvisualWidgetPopUp .temperature img{
+    margin-right: 5px;
+  }
+  
+  .AirvisualWidgetPopUp .contentWidget {
+    padding: 5px 15px 0 15px;
+    /* text-align: center; */
+    /* height: 140px; */
+    background-color: rgb(255, 255, 255)
+  }
+  
+  .AirvisualWidgetPopUp .contentWidget .current {
+    display: flex;
+    padding: 5px 10px;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .AirvisualWidgetPopUp .contentWidget .current .aqiNumberAndIcon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+  }
+  .AirvisualWidgetPopUp .contentWidget .current .aqiNumberAndIcon h2{
+    margin-right: 20px;
+  
+  }
+  
+  .AirvisualWidgetPopUp .forecasts {
+    padding-top: 15px;
+  }
+  
+  .AirvisualWidgetPopUp .forecastRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+  }
+  .AirvisualWidgetPopUp .forecastRow p{
+    color: #414141;
+  }
+  .AirvisualWidgetPopUp .forecastRow .forecastTimeStamp{
+    text-align: left;
+    width: 20%;
+  }
+  .AirvisualWidgetPopUp .forecastRow .forecastAQI{
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 4px;
+    color:white ;
+    width:20%;
+    text-align:center;
+  }
+  .AirvisualWidgetPopUp .forecastRow .forecastsImg{
+    width: 10%;
+  }
+  
+  .AirvisualWidgetPopUp .forecastRow .forecastTemp{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    width: 10%;
+  }
+  
+  .AirvisualWidgetPopUp .forecastRow .forecastPastTemp{
+    color: #67788d;
+    width: 10%;
+    text-align: center;
+  }
+  .AirvisualWidgetPopUp .footerWidget {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 10px;
+    color: #8c8c8c;
+  }
+  
+  .AirvisualWidgetPopUp .footerWidget div {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .AirvisualWidgetPopUp .footerWidget p {
+  width:60%;
+  }
+  .AirvisualWidgetPopUp .footerWidget a {
+  display:flex;
+  }
+  .AirvisualWidgetPopUp .footerWidget img {
+    margin-left: 5px;
+  }
+  
+  .AirvisualWidgetPopUp .credits {
+    text-align: right;
+    color: #8c8c8c;
+  }
+  .scale150.wrapperAirvisualWidget-636e7ab290645e04c07136ed,
+  .scale150.wrapperAirvisualWidget-636e7ab290645e04c07136ed:focus,
+  .scale150.wrapperAirvisualWidget-636e7ab290645e04c07136ed:hover {
+  font-size: 21px !important;
+  }
+  .scale150 .legendAirvisualWidget-636e7ab290645e04c07136ed {
+  height: 75px !important;
+  line-height: 30px !important;
+  }
+  .scale150 .legendAirvisualWidget-636e7ab290645e04c07136ed .inOutDoorName {
+  font-size: 21px !important;
+  }
+  .scale150 .legendAirvisualWidget-636e7ab290645e04c07136ed strong {
+  font-size: 21px !important;
+  }
+  .scale150 .legendAirvisualWidget-636e7ab290645e04c07136ed .timestamp {
+  font-size: 15px !important;
+  }
+  .scale150 .bodyAirvisualWidget {
+  height: 75px !important;
+  }
+  .scale150 .dividerAirvisualWidget {
+  height: 52.5px !important;
+  }
+  .scale150 .itemAirvisualWidget .rounded-icon {
+  width: 52.5px !important;
+  }
+  .scale150 .itemAirvisualWidget .itemWeather .weather-value {
+  font-size: 36px !important;
+  }
+  .scale150 .itemAirvisualWidget .itemWeather .AirvisualWidgetItemText {
+  font-size: 36px !important;
+  }
+  .scale150 .AirvisualWidgetItemText {
+  width: 120px !important;
+  }
+  .scale150 .AirvisualWidgetItemText .pmValue {
+  font-size: 27px !important;
+  }
+  .scale150 .AirvisualWidgetItemText .pmLabel {
+  font-size: 18px !important;
+  }
+  .scale150 .AirvisualWidgetItemText .humidityValue {
+  font-size: 24px !important;
+  }
+  .scale150 .aqiText {
+  font-size: 18px !important;
+  }
+  .scale150 .aqiValue {
+  font-size: 36px !important;
+  }
+  .scale150.AirvisualWidgetItemText strong {
+  font-size: 36px !important;
+  }
+  .scale150 .inoutLabel {
+  font-size: 18px !important;
+  }
+  .scale125.wrapperAirvisualWidget-636e7ab290645e04c07136ed,
+  .scale125.wrapperAirvisualWidget-636e7ab290645e04c07136ed:hover,
+  .scale125.wrapperAirvisualWidget-636e7ab290645e04c07136ed:focus {
+  font-size: 17.5px !important;
+  }
+  
+  .scale125 .legendAirvisualWidget-636e7ab290645e04c07136ed {
+  height: 75px !important;
+  line-height: 25px !important;
+  }
+  
+  .scale125 .legendAirvisualWidget-636e7ab290645e04c07136ed .inOutDoorName {
+  font-size: 17.5px !important;
+  }
+  
+  .scale125 .legendAirvisualWidget-636e7ab290645e04c07136ed strong {
+  font-size: 17.5px !important;
+  }
+  
+  .scale125 .legendAirvisualWidget-636e7ab290645e04c07136ed .timestamp {
+  font-size: 12.5px !important;
+  }
+  
+  .scale125 .bodyAirvisualWidget {
+  height: 75px !important;
+  }
+  
+  .scale125 .dividerAirvisualWidget {
+  height: 43.75px !important;
+  }
+  
+  .scale125 .itemAirvisualWidget {
+  padding: 7px !important;
+  }
+  
+  .scale125 .itemAirvisualWidget .rounded-icon {
+  width: 43.75px !important;
+  }
+  
+  .scale125 .itemAirvisualWidget .itemWeather {
+  border-radius: 6.25px !important;
+  padding: 3.75px !important;
+  }
+  
+  .scale125 .itemAirvisualWidget .itemWeather .weather-value {
+  font-size: 30px !important;
+  }
+  
+  .scale125 .itemAirvisualWidget .itemWeather .AirvisualWidgetItemText {
+  font-size: 30px !important;
+  }
+  
+  .scale125 .AirvisualWidgetItemText {
+  width: 100px !important;
+  border-radius: 0 6.25px 6.25px 0 !important;
+  }
+  
+  .scale125 .AirvisualWidgetItemText .pmValue {
+  font-size: 22.5px !important;
+  }
+  
+  .scale125 .AirvisualWidgetItemText .pmLabel {
+  font-size: 15px !important;
+  }
+  
+  .scale125 .AirvisualWidgetItemText .humidityValue {
+  font-size: 20px !important;
+  line-height: 35px;
+  }
+  
+  .scale125 .aqiText {
+  font-size: 15px !important;
+  line-height: 18.75px;
+  }
+  
+  .scale125 .aqiValue {
+  font-size: 25px !important;
+  }
+  
+  .scale125.AirvisualWidgetItemText strong {
+  font-size: 30px !important;
+  }
+  
+  .scale125 .inoutLabel {
+  font-size: 15px !important;
+  }
+  
+  .scale125 .Dot {
+  width: 12.5px !important;
+  height: 12.5px !important;
+  }
+  
+  .scale125 .indoorStatus {
+  border-radius: 5px !important;
+  padding: 6.25px !important;
+  margin-top: 3.75px !important;
+  }
+  
+  .scale125 .itemAirvisualWidget .ic-container {
+  padding: 3.75px !important;
+  border-radius: 6.25px 0 0 6.25px !important;
+  }
+  .scale125 .optionIconOnly .ic-container {
+  border-radius: 6.25px !important;
+  }
+  .scale125 .optionValueOnly .AirvisualWidgetItemText {
+  border-radius: 6.25px !important;
+  }
+  
+   
+  .scale50.wrapperAirvisualWidget-636e7ab290645e04c07136ed,
+  .scale50.wrapperAirvisualWidget-636e7ab290645e04c07136ed:focus,
+  .scale50.wrapperAirvisualWidget-636e7ab290645e04c07136ed:hover {
+  font-size: 7px !important;
+  }
+  .scale50 .legendAirvisualWidget-636e7ab290645e04c07136ed {
+  height: 30px !important;
+  line-height: 10px !important;
+  }
+  .scale50 .legendAirvisualWidget-636e7ab290645e04c07136ed .inOutDoorName {
+  font-size: 7px !important;
+  }
+  .scale50 .legendAirvisualWidget-636e7ab290645e04c07136ed strong {
+  font-size: 7px !important;
+  }
+  .scale50 .legendAirvisualWidget-636e7ab290645e04c07136ed .timestamp {
+  font-size: 5px !important;
+  }
+  .scale50 .bodyAirvisualWidget {
+  height: 30px !important;
+  }
+  .scale50 .dividerAirvisualWidget {
+  height: 17.5px !important;
+  }
+  .scale50 .itemAirvisualWidget {
+  padding: 3px !important;
+  }
+  .scale50 .itemAirvisualWidget .rounded-icon {
+  width: 17.5px !important;
+  }
+  .scale50 .itemAirvisualWidget .itemWeather {
+  border-radius: 2.5px !important;
+  padding: 1.5px !important;
+  }
+  .scale50 .itemAirvisualWidget .itemWeather .weather-value {
+  font-size: 12px !important;
+  }
+  .scale50 .itemAirvisualWidget .itemWeather .AirvisualWidgetItemText {
+  font-size: 12px !important;
+  }
+  .scale50 .AirvisualWidgetItemText {
+  width: 40px !important;
+  border-radius: 0 2.5px 2.5px 0 !important;
+  }
+  .scale50 .AirvisualWidgetItemText .pmValue {
+  font-size: 9px !important;
+  }
+  .scale50 .AirvisualWidgetItemText .pmLabel {
+  font-size: 6px !important;
+  }
+  .scale50 .AirvisualWidgetItemText .humidityValue {
+  font-size: 8px !important;
+  line-height: 14px;
+  }
+  .scale50 .aqiText {
+  font-size: 6px !important;
+  line-height: 7.5px;
+  }
+  .scale50 .aqiValue {
+  font-size: 10px !important;
+  }
+  .scale50.AirvisualWidgetItemText strong {
+  font-size: 12px !important;
+  }
+  .scale50 .inoutLabel {
+  font-size: 6px !important;
+  }
+  .scale50 .Dot {
+  width: 5px !important;
+  height: 5px !important;
+  }
+  .scale50 .indoorStatus {
+  border-radius: 2px !important;
+  padding: 2.5px !important;
+  margin-top: 1.5px !important;
+  }
+  .scale50 .itemAirvisualWidget .ic-container {
+  padding: 1.5px !important;
+  border-radius: 2.5px 0 0 2.5px !important;
+  }
+  .scale50 .optionIconOnly .ic-container {
+  border-radius: 2.5px !important;
+  }
+  .scale50 .optionValueOnly .AirvisualWidgetItemText {
+  border-radius: 2.5px !important;
+  }
+  
+  .scale75.wrapperAirvisualWidget-636e7ab290645e04c07136ed,
+  .scale75.wrapperAirvisualWidget-636e7ab290645e04c07136ed:focus,
+  .scale75.wrapperAirvisualWidget-636e7ab290645e04c07136ed:hover {
+  font-size: 10.5px !important;
+  }
+  .scale75 .legendAirvisualWidget-636e7ab290645e04c07136ed {
+  height: 45px !important;
+  line-height: 15px !important;
+  }
+  .scale75 .legendAirvisualWidget-636e7ab290645e04c07136ed .inOutDoorName {
+  font-size: 10.5px !important;
+  }
+  .scale75 .legendAirvisualWidget-636e7ab290645e04c07136ed strong {
+  font-size: 10.5px !important;
+  }
+  .scale75 .legendAirvisualWidget-636e7ab290645e04c07136ed .timestamp {
+  font-size: 7.5px !important;
+  }
+  .scale75 .bodyAirvisualWidget {
+  height: 45px !important;
+  }
+  .scale75 .dividerAirvisualWidget {
+  height: 26.25px !important;
+  }
+  .scale75 .itemAirvisualWidget {
+  padding: 3px !important;
+  }
+  .scale75 .itemAirvisualWidget .rounded-icon {
+  width: 26.25px !important;
+  }
+  .scale75 .itemAirvisualWidget .itemWeather {
+  border-radius: 3.75px !important;
+  padding: 2.25px !important;
+  }
+  .scale75 .itemAirvisualWidget .itemWeather .weather-value {
+  font-size: 18px !important;
+  }
+  .scale75 .itemAirvisualWidget .itemWeather .AirvisualWidgetItemText {
+  font-size: 18px !important;
+  }
+  .scale75 .AirvisualWidgetItemText {
+  width: 60px !important;
+  border-radius: 0 3.75px 3.75px 0 !important;
+  }
+  .scale75 .AirvisualWidgetItemText .pmValue {
+  font-size: 13.5px !important;
+  }
+  .scale75 .AirvisualWidgetItemText .pmLabel {
+  font-size: 9px !important;
+  }
+  .scale75 .AirvisualWidgetItemText .humidityValue {
+  font-size: 12px !important;
+  line-height: 21px;
+  }
+  .scale75 .aqiText {
+  font-size: 9px !important;
+  line-height: 11.25px;
+  }
+  .scale75 .aqiValue {
+  font-size: 15px !important;
+  }
+  .scale75.AirvisualWidgetItemText strong {
+  font-size: 18px !important;
+  }
+  .scale75 .inoutLabel {
+  font-size: 9px !important;
+  }
+  .scale75 .Dot {
+  width: 7.5px !important;
+  height: 7.5px !important;
+  }
+  .scale75 .indoorStatus {
+  border-radius: 3px !important;
+  padding: 3.75px !important;
+  margin-top: 2.25px !important;
+  }
+  .scale75 .itemAirvisualWidget .ic-container {
+  padding: 2.25px !important;
+  border-radius: 3.75px 0 0 3.75px !important;
+  }
+  .scale75 .optionIconOnly .ic-container {
+  border-radius: 3.75px !important;
+  }
+  .scale75 .optionValueOnly .AirvisualWidgetItemText {
+  border-radius: 3.75px !important;
+  }
+
+  #tit{
+    padding-top: 16px;
+  }
+
+  .bodyAirvisualWidget:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+
+  }
